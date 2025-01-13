@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./main.ts"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>T36</title>
+    <style>
+        *{         
+            font-family:'Lucida Sans';}
+    </style>
+</head>
+<body>
+    
+    <body>
+        <ul id="myList">
+          <li>Super Mario World</li>
+          <li>The Legend of Zelda</li>
+          <li>Portal 2</li>
+          <li>Tetris</li>
+          <li>Half-Life 2</li>
+          <li>Red Dead Redemption</li>
+          <li>Grand Theft Auto V</li>
+        </ul>
+        <div class="unten">
+          <button id="firstC-btn" ># firstElementChild</button><br />
+          <button id="lastC-btn"># lastElementChild</button><br />
+          <button id="first-sib-btn"># firstElementChild nextElementSibling</button><br />
+          <button id="last-sib-btn" ># lastElementChild previousElementSibling</button>
+        </div>
+    
+        <h1>Output</h1>
+        <output id="output-games"></output>
+
+        <br>
+        <br>
+        <form>
+            <select id="farbeAuswahlen">
+              <option>Medium Orchid</option>
+              <option>Mint Cream</option>
+              <option>Dodger Blue</option>
+              <option>Goldenrod</option>
+              <option>Wheat</option>
+              <option>Medium Turquoise</option>
+              <option>Moccasin</option>
+              <option>Fire Brick</option>
+              <option>Lime Green</option>
+              <option>Slate Gray</option>
+            </select>
+            <button type="button" id="color-button">Farbe von Liste Entfernen</button>
+          </form>
+
+          <br>
+          <br>
+
+          <div>
+            <form id="form1">
+              <label for="vorname">Vorname</label
+              ><input type="text" id="vorname" name="vorname" placeholder="Dein Name..." /><label for="nachname"
+                >Last Name</label
+              ><input type="text" id="nachname" name="nachname" placeholder="Dein Nachname..." /><label for="land">Land</label
+              ><select id="land" name="land">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option></select
+              ><input type="submit" value="Submit" />
+            </form>
+          </div>
+      
+          <form>
+            <select id="colorAuswahlen">
+              <option id="1">Medium Orchid</option>
+              <option id="2">Mint Cream</option>
+              <option id="3">Dodger Blue</option>
+              <option id="4">Goldenrod</option>
+              <option id="5">Wheat</option>
+              <option id="6">Medium Turquoise</option>
+              <option id="7">Moccasin</option>
+              <option id="8">Fire Brick</option>
+              <option id="9">Lime Green</option>
+              <option id="10">Slate Gray</option>
+            </select>
+            <button id="color2button">Farbe von Liste Background farben</button>
+          </form>
+</body>
+</html>
